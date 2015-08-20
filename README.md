@@ -80,7 +80,7 @@ mp.preferences.update(preference_id, params)
 
 ```ruby
 filters = {
-  site_id: AR
+  site_id: "AR"
 }
 
 search_result = mp.payments.search(filters)
